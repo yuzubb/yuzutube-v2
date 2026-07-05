@@ -10,6 +10,6 @@
    3) 同じIDを Termux の .env の GIST_ID にも設定する
    ========================================================= */
 window.YUZU_CONFIG = {
-  gistId: "",                     // 例: "a1b2c3d4e5f60718293a4b5c6d7e8f90"
+  gistId: "6664822b58d8cee8f6dc34ffde99191a",                     // 例: "a1b2c3d4e5f60718293a4b5c6d7e8f90"
   fileName: "yuzu_server.json"
 };
