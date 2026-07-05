@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/watch", "destination": "/watch.html" },
+    { "source": "/results", "destination": "/search.html" },
+    { "source": "/comments", "destination": "/comment.html" },
+    { "source": "/playlist", "destination": "/playlist.html" },
+    { "source": "/channel/:id*", "destination": "/channel.html" },
+    { "source": "/@:handle", "destination": "/channel.html" }
+  ]
+}
